@@ -15,7 +15,7 @@ from video_upload import upload_video
 app = Flask(__name__)
 
 # Get Groq API key
-groq_api_key = os.environ.get("API", "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")
+groq_api_key = os.environ.get("API", "ADD_GROQ_API")
 model = 'llama3-8b-8192'
 
 # Initialize Groq Langchain chat object and conversation
